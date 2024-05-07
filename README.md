@@ -1,7 +1,7 @@
 # cross-clock-domains---sync-with-ack
 frequency agnostic CDC valid_in Synchronizer. valid_in pulse is passed between clock domains, regardless of frequency. Upstream clock_domain receives ack once downstream clock_domain is finished.
 
-![Alt text](/sync_with_ack_img.png)
+![Alt text](crossing-clock-domains---sync-with-ack/sync_with_ack_img.png)
 
 ## Project Motivation
 How do we ensure a vld_in flag is always seen and not lost to metastability? This project is my first experience syncing clock domains of different frequencies. In embedded projects, it is common for signals to enter or leave the FPGA, crossing clock domains of different frequencies.
