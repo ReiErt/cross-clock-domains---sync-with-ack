@@ -1,5 +1,5 @@
 # cross-clock-domains---sync-with-ack
-frequency agnostic CDC valid_in Synchronizer. valid_in pulse is passed between clock domains, regardless of frequency. Upstream clock_domain receives ack once downstream clock_domain is finished. 
+frequency agnostic CDC valid_in Synchronizer with AXI-Stream interface. valid_in pulse is passed between clock domains, regardless of frequency. Upstream clock_domain receives ack once downstream clock_domain is finished. 
 
 ![General_Idea](/images/sync_with_ack_img.PNG)
 
